@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+                    /* lg screen*/
+@media (max-width :1200px)
+{
+    .Our-works .row img{
+       width: 302px;
+       height: 280px;
+    }
+    .Our-works .row .item .over {
+        left: 14px;
+        width: 95%;
+    }
+    .Our-works .row .item .over h4{
+        margin-top: 30px;
+    }
+    .our-team .row img {
+    width: 220px;
+    height: 210px;
+    }
+}
+
+                 /* md screen*/
+@media (max-width :992px)
+{
+    .Our-works .row img{
+        width: 230px;
+        height: 200px;
+    }
+    .Our-works .row .item .over{
+      left: 15px;
+      width: 96%;
+    
+    }
+    .Our-works .row .item:hover .over{
+        display: none;
+    }
+    
+    .our-team .row .person{
+       margin-bottom: 30px; 
+    }
+}
+
+
+                        /* sm screen*/
+@media (max-width :768px){
+    
+    .Our-works .row img{
+        width: 350px;
+        height: 290px;
+        margin-bottom: 20px;
+     }
+    
+ .Our-works .row .item .over{
+        left: 94px;
+        width: 65%;
+        border-radius: 20px;
+        height: 94%;
+        
+    }
+ .Our-works .row .item:hover .over{
+       display: block;
+    }
+
+}
+
+@media (max-width :576){
+    
+   .Our-works .row .item .over {
+    left: 75px;
+    width: 70%;
+    }
+
+}
